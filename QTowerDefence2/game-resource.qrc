@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/new/pics">
+        <file>BackGround.png</file>
+        <file>TowerPlace.png</file>
+        <file>Tower1.png</file>
+    </qresource>
+</RCC>
