@@ -6,13 +6,12 @@
 class Tower
 {
 public:
-    Tower(QPoint towerpoint);
+    Tower(QPoint towerpoint,const char *OSpath=":/new/pics/Tower1.png");   //可以添加塔的路径，为了后续实现多态
 
     void DrawTower(QPainter & painter);
 private:
     QPixmap T_pic;
     QPoint  T_CTpos;   //这里用的中心点来表示
-
     int AttackRange;
     int AttackHurt;
     static int SIZE;
