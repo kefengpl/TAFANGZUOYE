@@ -27,11 +27,15 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
     towerplace.cpp \
+    navigation.cpp \
+    monster.cpp \
     tower.cpp
 
 HEADERS += \
         mainwindow.h \
     towerplace.h \
+    navigation.h \
+    monster.h \
     tower.h
 
 FORMS += \

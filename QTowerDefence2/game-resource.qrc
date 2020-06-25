@@ -3,5 +3,7 @@
         <file>BackGround.png</file>
         <file>TowerPlace.png</file>
         <file>Tower1.png</file>
+        <file>Monster1.png</file>
+        <file>texiao.gif</file>
     </qresource>
 </RCC>
