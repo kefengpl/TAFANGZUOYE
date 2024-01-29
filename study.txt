@@ -14,3 +14,4 @@ git log 查看日志信息  (HEAD -> master) 表示当前指针是 master 分支
 git reflog 查看简略日志信息  __HOT___FIX____TEST
 
 21656546415161651651313161313513
+炎热的修复
