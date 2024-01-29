@@ -1,6 +1,6 @@
 写代码的目录 是工作区
-通过 git add 添加工作区的代码到 暂存区(临时存储，可以删除)
-通过 git commit 添加到本地库 历史版本(永久保存，因为可以回滚，git版本不能删除)
+通过 git add 添加工作区的代码到 暂存区[理解：它可以暂存整个文件](临时存储，可以删除)
+通过 git commit 添加到本地库 历史版本[它会将不同版本文件进行对比，保留新版本，记录相对于旧版本变化](永久保存，因为可以回滚，git版本不能删除)
 通过 git push 代码托管中心：远程仓库 GitHub
 
 git 常用命令
@@ -25,4 +25,26 @@ git rm --cached <file>...
 将 add 暂存区中的文件(变化)进行删除
 
 git commit -m "日志信息" [文件名]
+
+git rm --cached git学习.txt 取消追踪某个文件
+
+git reset --hard c1f583c 回退到某个版本
+
+checkout 只是切換版次，reset 包含了切換版次和提交，兩者區別在此
+
+git 版本控制是有一个指针  head --> master(分支) --> first(版本)
+第二个版本 head --> master --> second
+第三个版本 head --> master --> third
+如果希望回退，则 (head --> master 未切换分支) --> second
+
+git branch 比如 master 分支/ dev 分支
+一个分支可以理解为一个副本(分支底层也是指针引用)，其它分支的修改不影响主分支运行
+分支：多个开发，提高效率
+
+分支操作
+git branch 分支名 创建分支
+git branch -v 查看分支(git branch 也是查看分支，只不过是简化的显示)
+git checkout 分支名 切换分支
+git merge 分支名 合并分支
+
 
