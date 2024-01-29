@@ -11,6 +11,6 @@ Untracked files:
 CRLF --> LF (linux 会把 windows的CRLF转化为 LF)
 来把斗地主！
 git log 查看日志信息  (HEAD -> master) 表示当前指针是 master 分支
-git reflog 查看简略日志信息 
+git reflog 查看简略日志信息  __HOT___FIX____TEST
 
 21656546415161651651313161313513
