@@ -24,3 +24,5 @@ CRLF --> LF (linux 会把 windows的CRLF转化为 LF)
 git rm --cached <file>... 
 将 add 暂存区中的文件(变化)进行删除
 
+git commit -m "日志信息" [文件名]
+

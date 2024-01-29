@@ -1,0 +1,11 @@
+注意：这里设置用户签名和将来登录 github 的账号没有任何关系。只是为了表明本地的身份
+
+2. 初始化本地库
+git init 使得 git 获得目录管理权
+默认分支是 master
+git status
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git学习.txt
+
+CRLF --> LF (linux 会把 windows的CRLF转化为 LF)
