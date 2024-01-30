@@ -41,7 +41,7 @@ git branch 比如 master 分支/ dev 分支
 一个分支可以理解为一个副本(分支底层也是指针引用)，其它分支的修改不影响主分支运行
 分支：多个开发，提高效率
 
-分支操作
+分支操111作121
 git branch 分支名 创建分支
 git branch -v 查看分支(git branch 也是查看分支，只不过是简化的显示)
 git checkout 分支名 切换分支
